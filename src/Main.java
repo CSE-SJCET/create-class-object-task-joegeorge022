@@ -1,4 +1,4 @@
-class Student{
+class Student {
     String name;
     int rollNumber;
     char grade;
@@ -9,7 +9,7 @@ class Student{
         this.grade = grade;
     }
 
-    displayDetails() {
+    void displayDetails() {
         System.out.println("Name: " + name);
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Grade: " + grade);
@@ -17,7 +17,7 @@ class Student{
 }
 
 public class Main {
-      public static void main(String[] args) {
+    public static void main(String[] args) {
         Student student1 = new Student("Joe", 40, 'A');
         student1.displayDetails();
     }
