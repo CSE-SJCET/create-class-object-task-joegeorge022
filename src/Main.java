@@ -9,7 +9,7 @@ class Student {
         this.grade = grade;
     }
 
-    public void displayDetails() {
+    void displayDetails() {
         System.out.println("Name: " + name);
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Grade: " + grade);
